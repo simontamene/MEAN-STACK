@@ -3,6 +3,7 @@ const customerSchema = mongoose.Schema({
     firstName : String,
     lastName : String,
     emailAddress : String,
+    password : String,
     phoneNumber : String,
     dob : String,
     department:String 
